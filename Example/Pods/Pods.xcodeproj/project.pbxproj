@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10D22D8203D382F8ECEB66147DF1E288 /* Pods-LetheStretchyHeader_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDDD6BFDBF243706653A1C10704774C2 /* Pods-LetheStretchyHeader_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6317F5F273C808EB8083691937AC4401 /* LetheStretchyHeader-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 25237E859B31C8DD06C1A43374486267 /* LetheStretchyHeader-dummy.m */; };
+		73843B94D2ECE9F7EFB655852C809BE0 /* Pods-LetheStretchyHeader_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72A260298543CBDB0019E65F9AE131EA /* Pods-LetheStretchyHeader_Example-dummy.m */; };
+		95289A44B1CEE6D18E9FDCCF64D1CB10 /* LetheStretchyHeader-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 896CF11FC2E8ABEA6F748A28941DF094 /* LetheStretchyHeader-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7820C9539BCF10C3383E6135303CAD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D39AD28E8448DE03883C7529C8976B96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DF4F0A352E5CDDDBC35E864E5DE0CB4E /* LetheStretchyHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C0F1394BEB0D8A2EB5EDAF0CEF35C /* LetheStretchyHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D25CE987D6C7AA9BAD3C47BDEA7FB132 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F2218C64DFC351484C2CBDCFCD50FB45;
+			remoteInfo = LetheStretchyHeader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25237E859B31C8DD06C1A43374486267 /* LetheStretchyHeader-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LetheStretchyHeader-dummy.m"; sourceTree = "<group>"; };
+		2B9699B4D9322C6C177A0BA7D37EFCA6 /* LetheStretchyHeader.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LetheStretchyHeader.modulemap; sourceTree = "<group>"; };
+		317822C7905A25F29C96E0B5EA9EA72C /* Pods-LetheStretchyHeader_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetheStretchyHeader_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38717B2FA152878D7CF5FDC019F08CDD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		483E1651AC92C1354C86CC42D1D9DA7F /* LetheStretchyHeader-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetheStretchyHeader-prefix.pch"; sourceTree = "<group>"; };
+		62F41A0206050281569292F40C8768B7 /* Pods-LetheStretchyHeader_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetheStretchyHeader_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6812DFC61AD4CCD4CC8E3CCF30738127 /* LetheStretchyHeader.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetheStretchyHeader.xcconfig; sourceTree = "<group>"; };
+		686F5B12E325F17172DB60979A7DEB8F /* LetheStretchyHeader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LetheStretchyHeader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DDC58348001E26E5024666F71EA8952 /* LetheStretchyHeader.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = LetheStretchyHeader.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72A260298543CBDB0019E65F9AE131EA /* Pods-LetheStretchyHeader_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LetheStretchyHeader_Example-dummy.m"; sourceTree = "<group>"; };
+		896CF11FC2E8ABEA6F748A28941DF094 /* LetheStretchyHeader-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetheStretchyHeader-umbrella.h"; sourceTree = "<group>"; };
+		8981C419DE1EA5389B8514B4E3A93BA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9B030CEF3257264FD73EE42F7A0B29F9 /* Pods_LetheStretchyHeader_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetheStretchyHeader_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4E9D88865FB50E5F803989D5DF03C01 /* Pods-LetheStretchyHeader_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LetheStretchyHeader_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AF7CF92064C58953AD5B0DAA01C16709 /* LetheStretchyHeader-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LetheStretchyHeader-Info.plist"; sourceTree = "<group>"; };
+		BF6C0F1394BEB0D8A2EB5EDAF0CEF35C /* LetheStretchyHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LetheStretchyHeader.swift; path = LetheStretchyHeader/Classes/LetheStretchyHeader.swift; sourceTree = "<group>"; };
+		CCA69E53BC2FA63A49FE810170330B94 /* Pods-LetheStretchyHeader_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetheStretchyHeader_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D575AE3DE7C50C7937E52A1DA9E114B7 /* Pods-LetheStretchyHeader_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetheStretchyHeader_Example-Info.plist"; sourceTree = "<group>"; };
+		EA7EE59C34CF713A2514FC1EA3C26596 /* Pods-LetheStretchyHeader_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LetheStretchyHeader_Example.modulemap"; sourceTree = "<group>"; };
+		EDDD6BFDBF243706653A1C10704774C2 /* Pods-LetheStretchyHeader_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LetheStretchyHeader_Example-umbrella.h"; sourceTree = "<group>"; };
+		FFB4294D6993BAEABE29B9C30C4098A3 /* Pods-LetheStretchyHeader_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LetheStretchyHeader_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31FAD03176EAC9AE328A602A97EFCA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7820C9539BCF10C3383E6135303CAD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91360C5F7827A13A63C8345202C7B128 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39AD28E8448DE03883C7529C8976B96 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38A58CDF84998873328859C543AFB56A /* LetheStretchyHeader */ = {
+			isa = PBXGroup;
+			children = (
+				BF6C0F1394BEB0D8A2EB5EDAF0CEF35C /* LetheStretchyHeader.swift */,
+				8F8F5E3076361A94CEDDCCF24767FB0F /* Pod */,
+				8B8068E847279D4B63CFDA6E1D3D8AB2 /* Support Files */,
+			);
+			name = LetheStretchyHeader;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		541D790495FAAD514E75C5EB20A2EB03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				686F5B12E325F17172DB60979A7DEB8F /* LetheStretchyHeader.framework */,
+				9B030CEF3257264FD73EE42F7A0B29F9 /* Pods_LetheStretchyHeader_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		717AA49E0BA15C43D993F7BC95DAFEE9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF72B6848275F43A23E4995DCC7C4B7 /* Pods-LetheStretchyHeader_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B8068E847279D4B63CFDA6E1D3D8AB2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B9699B4D9322C6C177A0BA7D37EFCA6 /* LetheStretchyHeader.modulemap */,
+				6812DFC61AD4CCD4CC8E3CCF30738127 /* LetheStretchyHeader.xcconfig */,
+				25237E859B31C8DD06C1A43374486267 /* LetheStretchyHeader-dummy.m */,
+				AF7CF92064C58953AD5B0DAA01C16709 /* LetheStretchyHeader-Info.plist */,
+				483E1651AC92C1354C86CC42D1D9DA7F /* LetheStretchyHeader-prefix.pch */,
+				896CF11FC2E8ABEA6F748A28941DF094 /* LetheStretchyHeader-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LetheStretchyHeader";
+			sourceTree = "<group>";
+		};
+		8F8F5E3076361A94CEDDCCF24767FB0F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				6DDC58348001E26E5024666F71EA8952 /* LetheStretchyHeader.podspec */,
+				38717B2FA152878D7CF5FDC019F08CDD /* LICENSE */,
+				8981C419DE1EA5389B8514B4E3A93BA0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F164B9B4EE015E3C4A6CACD504FDC056 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				541D790495FAAD514E75C5EB20A2EB03 /* Products */,
+				717AA49E0BA15C43D993F7BC95DAFEE9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F164B9B4EE015E3C4A6CACD504FDC056 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38A58CDF84998873328859C543AFB56A /* LetheStretchyHeader */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FAF72B6848275F43A23E4995DCC7C4B7 /* Pods-LetheStretchyHeader_Example */ = {
+			isa = PBXGroup;
+			children = (
+				EA7EE59C34CF713A2514FC1EA3C26596 /* Pods-LetheStretchyHeader_Example.modulemap */,
+				FFB4294D6993BAEABE29B9C30C4098A3 /* Pods-LetheStretchyHeader_Example-acknowledgements.markdown */,
+				317822C7905A25F29C96E0B5EA9EA72C /* Pods-LetheStretchyHeader_Example-acknowledgements.plist */,
+				72A260298543CBDB0019E65F9AE131EA /* Pods-LetheStretchyHeader_Example-dummy.m */,
+				A4E9D88865FB50E5F803989D5DF03C01 /* Pods-LetheStretchyHeader_Example-frameworks.sh */,
+				D575AE3DE7C50C7937E52A1DA9E114B7 /* Pods-LetheStretchyHeader_Example-Info.plist */,
+				EDDD6BFDBF243706653A1C10704774C2 /* Pods-LetheStretchyHeader_Example-umbrella.h */,
+				62F41A0206050281569292F40C8768B7 /* Pods-LetheStretchyHeader_Example.debug.xcconfig */,
+				CCA69E53BC2FA63A49FE810170330B94 /* Pods-LetheStretchyHeader_Example.release.xcconfig */,
+			);
+			name = "Pods-LetheStretchyHeader_Example";
+			path = "Target Support Files/Pods-LetheStretchyHeader_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CA38E135A7FCFCFA65E6CB887CFD64B2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95289A44B1CEE6D18E9FDCCF64D1CB10 /* LetheStretchyHeader-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F65EEEE4C84B986C346ACED7F41958A5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D22D8203D382F8ECEB66147DF1E288 /* Pods-LetheStretchyHeader_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		73C7F1494BBA4B4DF3113349E9903B1E /* Pods-LetheStretchyHeader_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9A12D782A38EE60759C6D17C5529CDF /* Build configuration list for PBXNativeTarget "Pods-LetheStretchyHeader_Example" */;
+			buildPhases = (
+				F65EEEE4C84B986C346ACED7F41958A5 /* Headers */,
+				D0D23BE26F5E1D42CB9300E864254F2D /* Sources */,
+				91360C5F7827A13A63C8345202C7B128 /* Frameworks */,
+				CFD707D80E2204C8F00CE32289B50590 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF44E994B25BC4EEFF28D3F018D1088D /* PBXTargetDependency */,
+			);
+			name = "Pods-LetheStretchyHeader_Example";
+			productName = "Pods-LetheStretchyHeader_Example";
+			productReference = 9B030CEF3257264FD73EE42F7A0B29F9 /* Pods_LetheStretchyHeader_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F2218C64DFC351484C2CBDCFCD50FB45 /* LetheStretchyHeader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C211D9590FD7FAD99C9C1924963A40 /* Build configuration list for PBXNativeTarget "LetheStretchyHeader" */;
+			buildPhases = (
+				CA38E135A7FCFCFA65E6CB887CFD64B2 /* Headers */,
+				4F7C6466E0947F122DD3CE563315AC79 /* Sources */,
+				31FAD03176EAC9AE328A602A97EFCA0D /* Frameworks */,
+				20CEF1504F3BEEAFED7ED117649B2FE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetheStretchyHeader;
+			productName = LetheStretchyHeader;
+			productReference = 686F5B12E325F17172DB60979A7DEB8F /* LetheStretchyHeader.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 541D790495FAAD514E75C5EB20A2EB03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2218C64DFC351484C2CBDCFCD50FB45 /* LetheStretchyHeader */,
+				73C7F1494BBA4B4DF3113349E9903B1E /* Pods-LetheStretchyHeader_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20CEF1504F3BEEAFED7ED117649B2FE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFD707D80E2204C8F00CE32289B50590 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F7C6466E0947F122DD3CE563315AC79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6317F5F273C808EB8083691937AC4401 /* LetheStretchyHeader-dummy.m in Sources */,
+				DF4F0A352E5CDDDBC35E864E5DE0CB4E /* LetheStretchyHeader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0D23BE26F5E1D42CB9300E864254F2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73843B94D2ECE9F7EFB655852C809BE0 /* Pods-LetheStretchyHeader_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF44E994B25BC4EEFF28D3F018D1088D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LetheStretchyHeader;
+			target = F2218C64DFC351484C2CBDCFCD50FB45 /* LetheStretchyHeader */;
+			targetProxy = D25CE987D6C7AA9BAD3C47BDEA7FB132 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D85EDBC62D20AAD1775987ED89F4E9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6812DFC61AD4CCD4CC8E3CCF30738127 /* LetheStretchyHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader.modulemap";
+				PRODUCT_MODULE_NAME = LetheStretchyHeader;
+				PRODUCT_NAME = LetheStretchyHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		518A8A389FB44F088CC7FB091C00E114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCA69E53BC2FA63A49FE810170330B94 /* Pods-LetheStretchyHeader_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LetheStretchyHeader_Example/Pods-LetheStretchyHeader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetheStretchyHeader_Example/Pods-LetheStretchyHeader_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6FD6CAC0E1E9D209882A853A0A636DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62F41A0206050281569292F40C8768B7 /* Pods-LetheStretchyHeader_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LetheStretchyHeader_Example/Pods-LetheStretchyHeader_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetheStretchyHeader_Example/Pods-LetheStretchyHeader_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F0F904F07FA75B65E6BE66E8768FCFE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6812DFC61AD4CCD4CC8E3CCF30738127 /* LetheStretchyHeader.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LetheStretchyHeader/LetheStretchyHeader.modulemap";
+				PRODUCT_MODULE_NAME = LetheStretchyHeader;
+				PRODUCT_NAME = LetheStretchyHeader;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C211D9590FD7FAD99C9C1924963A40 /* Build configuration list for PBXNativeTarget "LetheStretchyHeader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F904F07FA75B65E6BE66E8768FCFE6 /* Debug */,
+				1D85EDBC62D20AAD1775987ED89F4E9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9A12D782A38EE60759C6D17C5529CDF /* Build configuration list for PBXNativeTarget "Pods-LetheStretchyHeader_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6FD6CAC0E1E9D209882A853A0A636DD /* Debug */,
+				518A8A389FB44F088CC7FB091C00E114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

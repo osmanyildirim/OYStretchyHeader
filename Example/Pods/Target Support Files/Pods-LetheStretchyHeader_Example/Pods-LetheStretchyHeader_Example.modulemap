@@ -1,0 +1,6 @@
+framework module Pods_LetheStretchyHeader_Example {
+  umbrella header "Pods-LetheStretchyHeader_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
