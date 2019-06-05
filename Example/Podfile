@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LetheStretchyHeader_Example' do
+  pod 'LetheStretchyHeader', :path => '../'
+
+  target 'LetheStretchyHeader_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
