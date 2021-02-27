@@ -1,5 +1,5 @@
-# LetheStretchyHeader
-![LetheStretchyHeader](LetheStretchyHeader.gif)
+# OYStretchyHeader
+![OYStretchyHeader](OYStretchyHeader.gif)
 
 
 
@@ -9,20 +9,20 @@ Installation
 
 ### CocoaPods
 
-Just add `pod 'LetheStretchyHeader'` to your Podfile then run `pod install` or `pod update`.
+Just add `pod 'OYStretchyHeader'` to your Podfile then run `pod install` or `pod update`.
 
-In any file you'd like to use LetheStretchyHeader in, don't forget to
-import the framework with `import LetheStretchyHeader`.
+In any file you'd like to use OYStretchyHeader in, don't forget to
+import the framework with `import OYStretchyHeader`.
 
 ### Manually
-Download and drop LetheStretchyHeader.swift in your project.
+Download and drop OYStretchyHeader.swift in your project.
 
 
 Usage
 ---
 
 ```swift
-   LetheStretchyHeader().initial(viewController: self,
+   OYStretchyHeader().init(viewController: self,
                                       parentView: scrollView,
                                       customHeader: nil,
                                       image: UIImage(named: "sample"),
@@ -43,4 +43,4 @@ you can select one of the types
 License
 -------
 
-LetheStretchyHeader is released under an MIT license. See ``LICENSE`` for more information.
+OYStretchyHeader is released under an MIT license. See ``LICENSE`` for more information.

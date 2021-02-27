@@ -1,16 +1,16 @@
 PODS:
-  - LetheStretchyHeader (0.1.0)
+  - OYStretchyHeader (0.1.0)
 
 DEPENDENCIES:
-  - LetheStretchyHeader (from `../`)
+  - OYStretchyHeader (from `../`)
 
 EXTERNAL SOURCES:
-  LetheStretchyHeader:
+  OYStretchyHeader:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LetheStretchyHeader: 3b205a44f95310cd85673ceeeacf49c2ded955b2
+  OYStretchyHeader: e3f1ee7e0f9f137d3b38b72b958a44ed4d3039d0
 
-PODFILE CHECKSUM: c70417fd17b60f5dedcb809ed579ee99cdd9c67f
+PODFILE CHECKSUM: 5de176cabbc720b8185ece52f42d498b7f3e29dd
 
-COCOAPODS: 1.7.1
+COCOAPODS: 1.10.0

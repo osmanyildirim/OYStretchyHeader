@@ -1,5 +1,5 @@
 import XCTest
-import LetheStretchyHeader
+import OYStretchyHeader
 
 class Tests: XCTestCase {
     

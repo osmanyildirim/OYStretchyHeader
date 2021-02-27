@@ -1,9 +1,11 @@
 use_frameworks!
 
-target 'LetheStretchyHeader_Example' do
-  pod 'LetheStretchyHeader', :path => '../'
+platform :ios, '9.0'
 
-  target 'LetheStretchyHeader_Tests' do
+target 'OYStretchyHeader_Example' do
+  pod 'OYStretchyHeader', :path => '../'
+
+  target 'OYStretchyHeader_Tests' do
     inherit! :search_paths
 
     

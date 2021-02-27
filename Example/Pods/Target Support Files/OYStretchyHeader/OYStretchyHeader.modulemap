@@ -1,0 +1,6 @@
+framework module OYStretchyHeader {
+  umbrella header "OYStretchyHeader-umbrella.h"
+
+  export *
+  module * { export * }
+}
