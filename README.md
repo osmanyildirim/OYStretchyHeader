@@ -1,5 +1,5 @@
 # OYStretchyHeader
-![OYStretchyHeader](OYStretchyHeader.gif=250x250)
+<img src="OYStretchyHeader.gif" width="278" height="600"/>
 
 
 
